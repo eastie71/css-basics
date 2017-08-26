@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Webpage with Style!</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<style type="text/css">
+		.red {
+			color: red;
+		}
+		.large {
+			font-size: 150%;
+		}
+		#green {
+			color: green;
+		}
+		.underlined {
+			text-decoration: underline;
+		}
+		#first-section {
+			color: blue;
+			background-color: pink;
+			width: 200px;
+			float: left;
+		}
+		#second-section {
+			color: purple;
+			background-color: yellow;
+			width: 250px;
+			float: right;
+		}
+		.clear-float {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="red">CSS is cool!</h1>
+	<div id="first-section">
+		<p>This is a sentence. This section is floated <strong>LEFT</strong>(width 200px)</p>
+		<p>This is yet another sentence. <span class="underlined">Here is some underlined text</span></p>
+	</div>
+	<div id="second-section">
+		<p class="large">This is another sentence floated <strong>RIGHT</strong>(width 250px).</p>
+	</div>
+	<div class="clear-float">
+		<p>This is paragraph this is not floated - after issuing the clear float css</p>
+	</div>
+</body> 
+</html>
